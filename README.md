@@ -12,22 +12,41 @@ A partir da cópia da tabela original, serão selecionadas as colunas que irão 
 
 Serão criadas as tabelas:  
 
-**F_Vendas** (SK_ID , ID_Produto, Produto, Units Sold, Sales Price, Discount  Band, Segment, Country, Salers, Profit, Date (campos)) 
+**F_Vendas**:
+- SK_ID
+- ID_Produto
+- Produto
+- Units Sold
+- Sales Price
+- Discount Band
+- Segment
+- Country
+- Salers
+- Profit
+- Date
 
-**D_Produtos** (ID_produto, Produto, Média de Unidades Vendidas, Médias do valor de vendas, Mediana do valor de vendas, Valor máximo de Venda, Valor mínimo de Venda)
+**D_Produtos**:
+- ID_produto
+- Produto
+- Média de Unidades Vendidas
+- Média do Valor de Vendas
+- Mediana do Valor de Vendas
+- Valor Máximo de Venda
+- Valor Mínimo de Venda
 
-**D_Descontos** (ID_produto, Discount, Discount Band) 
+**D_Produtos_Detalhes**:
+- ID_produto
+- Discount Band
+- Sale Price
+- Units Sold
+- Manufacturing Price
 
-**D_Detalhes** (*) 
-
-**D_Calendário** – Criada por DAX com calendar() 
+**D_Descontos**:
+- ID_produto
+- Discount
+- Discount Band
 
 ![image](https://github.com/user-attachments/assets/b9a0ae2f-fcbf-4708-bcd5-c79259cfc3ca)
-
-Interface gráfica do usuário, Aplicativo
-
-Descrição gerada automaticamente com confiança médiaD_Produtos_Detalhes(ID_produtos, Discount Band, Sale Price,  Units Sold, Manufactoring Price) 
-
 
 
 
