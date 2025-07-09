@@ -46,7 +46,8 @@ Serão criadas as tabelas:
 - Discount
 - Discount Band
 
-![image](https://github.com/user-attachments/assets/b9a0ae2f-fcbf-4708-bcd5-c79259cfc3ca)
+![image](https://github.com/user-attachments/assets/cd479462-3f84-4300-8d79-1707eb468606)
+
 
 
 
